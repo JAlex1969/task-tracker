@@ -1,0 +1,17 @@
+NOVO - do disco para o repositório:
+echo "# task-tracker" >> README.md
+git init
+git add README.md
+git add .                     (Adicionar todos os ficheiros)
+git commit -m "first commit"
+git branch -M main
+// Crie um repositorio no github.com
+git remote add origin https://github.com/JAlex1969/task-tracker.git (caminho)
+git remote -v                 (verificar se o caminho está correto)
+git push -u origin main
+
+Atualizar ficheiros:
+git add .
+git status
+git commit -m "type any message here”
+git push
